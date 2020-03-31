@@ -1,7 +1,7 @@
 # time-preference
 Android library module, providing code for a time preference.
 
-Example snippet from `root_preferences.xml`
+Example snippet from `root_preferences.xml`:
 ```
   <uk.co.stevebosman.timepreference.TimePreference
       android:defaultValue="08:00"
