@@ -17,7 +17,7 @@ class TimePreference(ctxt: Context?, attrs: AttributeSet?, defStyle: Int) :
     constructor(ctxt: Context?, attrs: AttributeSet?) : this(
         ctxt,
         attrs,
-        android.R.attr.dialogPreferenceStyle
+        R.attr.dialogPreferenceStyle
     )
 
     override fun onGetDefaultValue(a: TypedArray, index: Int): String? {
