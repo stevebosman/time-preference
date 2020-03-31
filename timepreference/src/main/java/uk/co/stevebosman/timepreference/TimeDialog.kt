@@ -1,4 +1,4 @@
-package uk.co.stevebosman.daylight
+package uk.co.stevebosman.timepreference
 
 import android.content.Context
 import android.os.Bundle
