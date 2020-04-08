@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'maven-publish'
 
 def getVersionName = { ->
-    return "0.0.8"
+    return "0.0.9"
 }
 
 def getArtificatId = { ->

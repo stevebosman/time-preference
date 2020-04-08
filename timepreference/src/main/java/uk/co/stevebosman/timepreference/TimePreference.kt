@@ -41,7 +41,7 @@ class TimePreference(ctxt: Context?, attrs: AttributeSet?, defStyle: Int) :
     }
 
     fun setValue(hour: Int, minute: Int) {
-        val time = "${hour.toString().padStart(2, '0')}:${minute}"
+        val time = "${hour.toString().padStart(2, '0')}:${minute.toString().padStart(2, '0')}"
         persistString(time)
         summary = time
     }
